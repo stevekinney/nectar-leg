@@ -11,4 +11,13 @@ function Rectangle(x, y, width, height) {
 
 }
 
+Rectangle.prototype.perimeter = function () {
+  return (this.width * 2) + (this.height * 2);
+};
+
+Rectangle.prototype.area = function () {
+  return this.width * this.height;
+};
+
+
 module.exports = Rectangle;
