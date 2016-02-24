@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/stevekinney/nectar-leg/issues"
   },
-  "homepage": "https://github.com/stevekinney/nectar-leg#readme"
+  "homepage": "https://github.com/stevekinney/nectar-leg#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
